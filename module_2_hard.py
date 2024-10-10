@@ -19,5 +19,5 @@ def crypt_nn(in_key)->list:
 
 in_key=input('-> ')
 while check_int(in_key):
-    print(crypt_nn(in_key))
+    print(*crypt_nn(in_key))
     in_key = input('-> ')
